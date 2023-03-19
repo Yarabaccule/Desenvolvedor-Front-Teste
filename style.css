@@ -1,0 +1,141 @@
+
+   *{
+    margin:0;
+    padding:0
+   }
+   body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    header .firt-block{
+        background-color:black;
+        color: white;
+        height:30px;
+        line-height:35px;
+        padding-left:20px;
+    }
+    header .bi{
+      padding:5px;
+    }
+    header .logo{
+      background-color:gray;
+      display:flex;
+    }
+    header .logo img{
+      margin:20px;
+      width: 150px;
+      height:auto;
+    }
+
+    header .seach{
+      margin-top:5%;
+      width:90%;
+    }
+
+    header .seach button{
+      height:40px;
+      border: none;
+      font-size: 14px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius:10px;
+      padding-right:20px;
+      padding-left:20px;
+    }
+
+    header .seach input{
+      height: 40px;
+      width:60%;
+      border:none;
+      border-radius: 15px;
+    }
+
+    header .home{
+      background-color: black;
+      height:50px;
+      line-height:50px;
+    }
+    header .home a{
+      font-size:20px;
+      color: white;
+      text-decoration: none;
+      margin:20px;
+    }
+
+  
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+        margin-top:10px;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        color: #333;
+      }
+      
+    li:hover {
+        background-color: #ddd;
+      }
+    li:last-child {
+      border-bottom: none;
+    }
+    .container img {
+      float: left;
+      margin-right: 10px;
+      width: 100%;
+      border-radius:10px;
+
+    }
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 15px;
+      
+    }
+    .price {
+      font-size: 14px;
+      color: #b12704;
+    }
+    .buy-button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius:10px;
+      }
+      .buy-button:hover {
+        background-color: #3e8e41;
+      }
+
+      footer {
+        background-color:black;
+        color: white;
+      }
+
+      @media (max-width : 700px){
+
+      } 
