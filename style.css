@@ -1,48 +1,47 @@
-
- *{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      background: linear-gradient(45deg, #0B1641 0%, #C70160 100%);
-}
-header .firt-block{
-        background-color:#0B1641;
-        color: white;
-        height:30px;
-        line-height:35px;
-        padding:5px;
-        padding-left:20px;
-        display:flex;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background: linear-gradient(45deg, #0B1641 0%, #C70160 100%);
+  color: white;
 }
 
-header .firt-block .titulo{
-  margin-left:5px;
-  margin-top: -5px;
-  
+header .firt-block {
+  background-color: #0B1641;
+  color: white;
+  height: 30px;
+  line-height: 35px;
+  padding: 5px;
+  padding-left: 20px;
+  display: flex;
 }
-header .ofertas{
-  color:white;
+
+header .firt-block .titulo {
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+header .ofertas {
+  color: white;
   font-size: 36px;
 }
 
-.seach{
-  display:flex;
+.seach {
+  display: flex;
 }
-
-  
 
 form {
   display: flex;
   align-items: center;
   background-color: #0B1641;
   border-radius: 5px;
-  height:40px;
-  width:400px;
+  height: 40px;
+  width: 400px;
   border: none;
-
 }
 
 input[type="text"] {
@@ -51,8 +50,7 @@ input[type="text"] {
   padding: 10px;
   font-size: 16px;
   background-color: transparent;
-  color:white;
-
+  color: white;
 }
 
 button[type="submit"] {
@@ -62,312 +60,214 @@ button[type="submit"] {
   font-size: 16px;
   cursor: pointer;
 }
+
 button[type="submit"] i {
   margin-right: 5px;
   border: none;
-}  
-
-.order-by{
-  padding-left:32%;
-  display:flex;
 }
-.order-by label{
+
+.order-by {
+  margin-left: 20%;
+  }
+  
+  .order-by label {
   font-weight: normal;
-  font-size:14px;
-}
-.order-by{
-  color:white
-}
-
-option {
-    font-weight: normal;
-    padding:20px;
-}
-
-option:hover {
-  backgroud:none;
+  font-size: 14px;
+  }
+  
+  .order-by {
+  color: white;
+  }
+  
+  option {
+  font-weight: normal;
+  padding: 20px;
+  }
+  
+  option:hover {
+  background: none;
   color: #C70160;
-
-}
-
-.order-by select{
-  border-radius:5px;
+  }
+  
+  .order-by select {
+  border-radius: 5px;
   border: none;
   color: #555;
-  background-color:#0B1641;
-  height:40px;
-  padding:10px;
-  margin-left:5px;
-  font-size:12px;
-}
-.container {
+  background-color: #0B1641;
+  height: 40px;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 12px;
+  }
+  
+  .container {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-}
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    li {
-        background-color:#0B1641;
-        margin-top:10px;
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        margin-left:20px;
-        border-bottom: 1px solid #ccc;
-        color: #333;
-        border-radius:10px;
-        padding-bottom:10px;
-
-      }
-
-    li img {
-      width: 100%;
-      border-radius:10px 10px 0px 0px;
-
-
-    }
-    .title {
-      font-size: 14px;
-      margin-bottom: 5px;
-      margin-top: 15px;
-      color:white;
-      margin:10px;
-    }
-    .price {
-      font-size: 14px;
-      color: white;
-      margin:10px;
-      padding-left:18%;
-        }
-
-    .buy-button {
-        background-color: #C70160;
-        color: white;
-        border: none;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-        margin-top: 10px;
-        margin-left: 20px;
-        cursor: pointer;
-        border-radius:10px;
-      }
-      .buy-button:hover {
-        background-color: #C71585;
-      }
-
-button {
-        background-color: #16857B;
-        color: white;
-        border: none;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-        margin-left: 5px;
-        cursor: pointer;
-        border-radius:10px;
-      }
-button:hover {
-          background-color :#48D1CC;
-}
-
-
-      footer {
-        padding:50px;
-        background-color:#0B1641;
-        color: white;
-      }
-
-.link-footer{
-  margin-top:20px;
-}
-.link-footer a{
-  color:white;
-  text-decoration: none;
-  padding-right:15px;
-
-}
-
-
-
-#games {
+  }
+  
+  h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-}
-
-#games li {
+  }
+  
+  li {
+  background-color: #0B1641;
+  margin-top: 10px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  }
+  
+  li img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  }
+  
+  .title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: white;
+  margin: 10px;
+  }
+  
+  .price {
+  font-size: 100%;
+  color: white;
+  padding-left: 20%;
+  }
+  
+  .price,
+  .buy-button {
+  display: inline-block;
+  }
+  
+  .buy-button {
+  background-color: #C70160;
+  color: white;
+  border: none;
+  padding: 3% 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin-top: 10px;
+  margin-left: 5%;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+  
+  .buy-button:hover {
+  background-color: #C71585;
+  }
+  
+  button {
+  background-color: #16857B;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+  
+  button:hover {
+  background-color: #C71585;
+  }
+  
+  .button-final {
+  background-color: #C70160;
+  color: #333;
+  width: 380px;
+  margin: 20px;
+  }
+  
+  button-final:hover {
+  background-color: #48D1CC;
+  }
+  
+  #games {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  #games li {
   width: 30%;
   margin: 10px;
   display: none;
-}
-
-#games li:nth-child(n+3) {
-  display: block;
-}
-
-    .price, .buy-button {
-      display: inline-block;
-    }
-
-
-
-.button-final{
-  background-color:#0B1641;
-  color: #333;
-  width: 380px;
-  margin:20px
-}
-
-@media (max-width : 1000px){
-  .order-by{
-    padding-left:25%;
-
   }
-  .price {
-    padding-left:15%;
-      }
-}
-
-@media (max-width : 990px){
-  .price {
-    padding-left:10%;
-      }
-
-}
-
-@media (max-width : 950px){
-  .price {
-    padding-left:5%;
-      }
-
-}
-
-
-  @media (max-width : 900px){
-    .order-by{
-      padding-left:20%;
-
-    }
-    .price {
-      padding-left: 0%;
-        }
-
-  }
-
-
-  @media (max-width : 850px){
-    .order-by{
-      padding-left:15%;
-
-    }
-    .buy-button {
-      padding: 6px 14px;
-      font-size: 12px;
-
-    }
-    button {
-      padding: 6px 14px;
-      font-size: 12px;
-
-    }
-    .price {
-      font-size: 12px;
-        }
-   
-
-  }
-
-
-  @media (max-width : 750px){
-        
-    #games li {
-      width: 45%;
-
-    }
-    .order-by{
-      display:block;
-    }
-    header .ofertas{
-      text-align:center
-    }
-    button{
-      padding: 4px 12px;
-      font-size: 12px;
-    }
-    .buy-button{
-      padding: 4px 12px;
-      font-size: 12px;
-    }
-  } 
-
-  @media (max-width : 750px){
-        
-    #games li {
-      width: 45%;
-    }
-    .price{
-      padding-left:18%;
-    }
-
-  } 
-  @media (max-width : 700px){
-        
-    #games li {
-      width: 45%;
-    }
-    .price{
-      padding-left:20%;
-    }
-
-  } 
   
-  @media (max-width : 600px){
-    .price{
+  #games li:nth-child(n+3) {
+  display: block;
+  }
+  
+  footer {
+  padding: 50px;
+  background-color: #0B1641;
+  }
+  
+  .link-footer {
+  margin-top: 20px;
+  }
+  
+  .link-footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+  }
+  
+/* medium phones */
+@media (max-width: 1000px) {
+    .price {
+      padding-left:15%;
+        }
+}
+@media (max-width: 900px) {
+    .price {
       padding-left:10%;
+        }
+}
+
+@media (max-width: 850px) {
+  #games li {
+      width: 40%;
     }
-
-  } 
-
-  @media (max-width : 550px){
-    .price{
-      padding-left:0%;
+    .order-by label{
+      display: none
     }
+    
+}
 
-  } 
-
-
-
-  @media (max-width : 500px){
+/* Small phones */
+@media (max-width: 680px) {
+  .button-final{
+      background-color:red;
+    }
     #games li {
-      width: 100% !important;
-    }
-    .price{
-      padding-left:40%;
+      width: 100%;
     }
     .buy-button {
-      padding: 8px 16px;
-
+      padding: 10px 20px;
     }
-
-button {
-      padding: 8px 16px;
-  }
-  .order-by{
-    padding-left:10%;
-
-  }
+    .price {
+      padding-left:40%;
+        } 
 }

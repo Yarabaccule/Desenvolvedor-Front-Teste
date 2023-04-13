@@ -34,12 +34,6 @@ price.appendChild(percentSymbol);
         renderGame();
       })
       .catch(error => console.error(error));
-  
-
-
-
-
-
 
 
 const priceOrderSelect = document.getElementById("price-order");
@@ -59,10 +53,6 @@ priceOrderSelect.onchange = function() {
   });
   games.forEach(game => gamesList.appendChild(game));
 };
-
-
-
-
 
 
 priceOrderSelect.onchange = function() {
